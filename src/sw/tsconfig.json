@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"outFile": "../../docs/sw.js",
+		"module": "amd",
+		"target": "es2017",
+		"moduleResolution": "node",
+		"strictNullChecks": true,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"lib": ["webworker", "es2017", "scripthost"],
+		"preserveConstEnums": false,
+		"sourceMap": false
+	},
+	"include": [
+		"./index.ts"
+	],
+	"exclude": [
+		"**/node_modules/*",
+		"**/index.d.ts"
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "mirrano",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build:site": "tsc -p src/site",
+    "build:sw": "tsc -p src/sw",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HirokiMiyaoka/Mirrano.git"
+  },
+  "author": "Hiroki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HirokiMiyaoka/Mirrano/issues"
+  },
+  "homepage": "https://github.com/HirokiMiyaoka/Mirrano#readme"
+}
